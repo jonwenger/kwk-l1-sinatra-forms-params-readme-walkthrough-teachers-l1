@@ -10,7 +10,7 @@ get '/' do
   end 
 
   post '/results' do
-    
+   @name = params
    erb :results
     
   end 
