@@ -9,11 +9,6 @@ get '/' do
     
   end 
 
-
-# get '/results' do
-#   erb :results
-  
-# end 
   post '/results' do
     
    erb :results
