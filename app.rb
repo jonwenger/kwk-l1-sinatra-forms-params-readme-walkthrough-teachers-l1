@@ -10,10 +10,10 @@ get '/' do
   end 
 
 
-get '/results' do
-  erb :results
+# get '/results' do
+#   erb :results
   
-end 
+# end 
   post '/results' do
     
    erb :results
