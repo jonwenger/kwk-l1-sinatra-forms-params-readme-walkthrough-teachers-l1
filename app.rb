@@ -11,7 +11,7 @@ get '/' do
 
   post '/results' do
    @name = params[:name]
-   @sign = params[]
+   @sign = params[:sign]
    erb :results
     
   end 
