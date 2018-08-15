@@ -9,7 +9,7 @@ get '/' do
     
   end 
 
-  get '/results' do
+  post '/results' do
     
    erb :results
     
